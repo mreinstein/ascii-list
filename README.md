@@ -12,3 +12,6 @@ https://www.gridsagegames.com/blog/2016/06/iterative-ui-design/
 npm install
 npm start
 ```
+
+## links
+* some nice bitmap fonts http://www.pentacom.jp/pentacom/bitfontmaker2/gallery/

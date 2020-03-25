@@ -5,9 +5,6 @@ import sinMinus    from './sin-minus.js'
 import tileMap     from './tile-map.js'
 
 
-// original inspiration   https://www.gridsagegames.com/blog/2016/06/iterative-ui-design/
-// some nice bitmap fonts http://www.pentacom.jp/pentacom/bitfontmaker2/gallery/
-
 const model = {
     columns: 0,
     rows: 0,
@@ -108,7 +105,6 @@ function generateRandomList (length) {
  @return Array resulting blended color in rgb tuplet
 */
 function blend (src, dst, amt) {
-    // very capable blending, but maybe overkill for now:  https://www.npmjs.com/package/color-blend
     return dst.map((c, i) => Math.round(amt * c + (1 - amt) * src[i]))
 }
 
