@@ -1,5 +1,5 @@
-import { Display } from 'rot-js'
-import clamp       from 'clamp'
+import { Display } from 'https://cdn.skypack.dev/rot-js'
+import clamp       from 'https://cdn.skypack.dev/clamp'
 import colors      from './colors.js'
 import sinMinus    from './sin-minus.js'
 import tileMap     from './tile-map.js'
