@@ -2,7 +2,7 @@
 
 an ascii list with animated sort.
 
-![alt text](fig1.webp "mesmerizing list sort")
+![alt text](fig1.webp "mesmerizing list sort" | width=200)
 
 
 ## usage
